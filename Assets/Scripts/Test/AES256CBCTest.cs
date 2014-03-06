@@ -28,9 +28,8 @@ public class AES256CBCTest : MonoBehaviour
 	/// </summary>
 	void TestSuite_CoreUtils()
 	{
-		string message = "Hello, world";
-		string key = "이왕만들거제대로재미있게만들고서비스하자쪽팔리지말고_~!!";
-		//string key = "This is my password.";
+		string message = "Hello, world";		
+		string key = "This is my password.";
 		
 		Debug.Log ("Original message: " + message);
 		
@@ -52,7 +51,6 @@ public class AES256CBCTest : MonoBehaviour
 	void TestSuite_MessageUtil()
 	{
 		string message = "Hello, world";
-		//string key = "이왕만들거제대로재미있게만들고서비스하자쪽팔리지말고_~!!";
 		string key = "ABCDEFGHIJKLMNOPQRSTUVWXYZ012345";
 		
 		Debug.Log ("orignal message: " + message);
